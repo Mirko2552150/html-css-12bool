@@ -1,0 +1,23 @@
+/* inseriamo tutti gli elementi che potranno servirci chrome
+default durante tutti i lavori ES margin padding */
+/* FRAMEWORK PERSONALE */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* selettore avanzato, che seleziona i tag con all'interno col- */
+[class*="col-"] {
+    /* FONDAMENTALE*/
+    float: left;
+    /* TUTTI GLI ALTRI PARAMETRI SONO PER EVIDENZIARE I DIV, NON mettere o Rimuovere durante i lvaori */
+}
+
+/*  */

@@ -1,0 +1,6 @@
+.container {
+    /* massima dimensione */
+    max-width: 1200px;
+    /* centrato */
+    margin: 0 auto;
+}
