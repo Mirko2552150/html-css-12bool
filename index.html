@@ -11,8 +11,48 @@
     </head>
     <body>
         <!-- possibile inserire clearfix nel framework -->
+        <!-- divisione *12 -->
         <div class="container cleafix">
-
+            <!-- mettendo nella class tutte le taglie i div non collasse -->
+            <!-- xs 100% 12/12 md 50% 12/6 lg 1/12  -->
+            <div id="quadrato" class="red col-xs-12 col-md-6 col-lg-1">1/12</div>
+            <div id="quadrato" class="red col-xs-12 col-md-6 col-lg-1">1/12</div>
+            <div id="quadrato" class="red col-xs-12 col-md-6 col-lg-1">1/12</div>
+            <div id="quadrato" class="red col-xs-12 col-md-6 col-lg-1">1/12</div>
+            <div id="quadrato" class="red col-xs-12 col-md-6 col-lg-1">1/12</div>
+            <div id="quadrato" class="red col-xs-12 col-md-6 col-lg-1">1/12</div>
+            <div id="quadrato" class="red col-xs-12 col-md-6 col-lg-1">1/12</div>
+            <div id="quadrato" class="red col-xs-12 col-md-6 col-lg-1">1/12</div>
+            <div id="quadrato" class="red col-xs-12 col-md-6 col-lg-1">1/12</div>
+            <div id="quadrato" class="red col-xs-12 col-md-6 col-lg-1">1/12</div>
+            <div id="quadrato" class="red col-xs-12 col-md-6 col-lg-1">1/12</div>
+            <div id="quadrato" class="red col-xs-12 col-md-6 col-lg-1">1/12</div>
+        </div>
+        <!-- divisione *6 -->
+        <div class="container cleafix">
+            <div id="quadrato" class="yellow col-xs-12 col-md-6 col-lg-2">1/6</div>
+            <div id="quadrato" class="yellow col-xs-12 col-md-6 col-lg-2">1/6</div>
+            <div id="quadrato" class="yellow col-xs-12 col-md-6 col-lg-2">1/6</div>
+            <div id="quadrato" class="yellow col-xs-12 col-md-6 col-lg-2">1/6</div>
+            <div id="quadrato" class="yellow col-xs-12 col-md-6 col-lg-2">1/6</div>
+            <div id="quadrato" class="yellow col-xs-12 col-md-6 col-lg-2">1/6</div>
+            <!-- SOMMA SEMPRE 12 -->
+        </div>
+        <div class="container clearfix">
+            <div id="quadrato" class="blu col-xs-12 col-md-6 col-lg-2">1/6</div>
+            <div id="quadrato" class="blu col-xs-12 col-md-6 col-lg-2">1/6</div>
+            <div id="quadrato" class="blu col-xs-12 col-md-6 col-lg-2">1/6</div>
+            <div id="quadrato" class="blu col-xs-12 col-md-6 col-lg-2">1/6</div>
+        </div>
+        <div class="container clearfix">
+            <div id="quadrato" class="orange col-xs-12 col-md-6 col-lg-3 col-xs-offset-0 col-md-offset-3 col-lg-offset-0">1/4</div>
+            <!-- LG= pieno - pieno - vuoto pieno MD= centrati uno sotto l'altro XS= tutti uno sotto l'altro  -->
+            <div id="quadrato" class="orange col-xs-12 col-md-6 col-lg-3 col-xs-offset-0 col-md-offset-3 col-lg-offset-0">1/4</div>
+            <!-- crea uno spazio dopo il secondo perchè insrisco LG OFFSET 3 (equivale a 1/4) nella stringa del 3 box -->
+            <div id="quadrato" class="orange col-xs-12 col-md-6 col-lg-3 col-xs-offset-0 col-md-offset-3 col-lg-offset-3">1/4</div>
+        </div>
+        <div class="container clearfix">
+            <div id="quadrato" class="pink col-xs-12 col-md-6 col-lg-2 col-xs-offset-0 col-md-offset-3 col-lg-offset-10">1/6</div>
         </div>
     </body>
 </html>
